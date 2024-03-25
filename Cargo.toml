@@ -1,14 +1,13 @@
 [package]
 name = "iso_country"
-version = "0.1.1"
-authors = ["Piotr Zolnierek <pzolnierek@gmail.com>"]
-license = "MIT"
-description = "ISO3166-1 countries"
+version = "0.2.0"
+edition = "2021"
+publish = false
 homepage = "https://github.com/pzol/iso_country"
 repository = "https://github.com/pzol/iso_country"
 
 [dependencies]
-serde = { version = "1", optional = true }
+serde = { version = "1.0.197", optional = true }
 
 [dev-dependencies]
-serde_json = "1"
+serde_json = "1.0.114"

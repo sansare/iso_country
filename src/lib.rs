@@ -7,8 +7,6 @@
 // |
 // | - [Wikipedia](http://en.wikipedia.org/wiki/ISO_3166-1)
 
-#[cfg(feature = "serde")]
-extern crate serde;
 
 use std::{ fmt, str };
 use std::error::Error;
